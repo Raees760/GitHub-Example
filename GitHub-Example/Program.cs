@@ -4,7 +4,7 @@ public class Program{
 
     static void Main(){
         HogwartsStudent[] hogwartsStudents = {
-            //new HogwartsStudentHenk(100, 20, House.Slytherin),
+            new HogwartsStudentSimon(), new HogwartsStudentRaees(), new HogwartsStudentKyrone()
         };
 
         foreach(HogwartsStudent s in hogwartsStudents){
