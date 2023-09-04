@@ -1,4 +1,4 @@
-abstract class HogwartsStudent{
+ public abstract class HogwartsStudent{
 
     public abstract string Name { get; }
     public int HitPoints { get; private set; }
@@ -32,7 +32,7 @@ abstract class HogwartsStudent{
     protected abstract string CastSpell();
 }
 
-enum House{
+public enum House{
     Gryffindor,
     Hufflepuff,
     Ravenclaw,
