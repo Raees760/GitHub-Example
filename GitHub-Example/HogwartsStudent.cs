@@ -1,11 +1,11 @@
-abstract class HogwartStudent{
+abstract class HogwartsStudent{
 
     public abstract string Name { get; }
     public int HitPoints { get; private set; }
     public int Defense { get; private set; }
     public House House { get; private set; }
 
-    public HogwartStudent(int hitPoints, int defense, House house){
+    public HogwartsStudent(int hitPoints, int defense, House house){
         HitPoints = hitPoints;
         Defense = defense;
         House = house;
